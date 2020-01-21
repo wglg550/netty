@@ -1,0 +1,12 @@
+#\u7AEF\u53E3\u548C\u521D\u59CB\u8DEF\u5F84\u914D\u7F6E
+server:
+  port: 8081
+
+#\u9879\u76EE\u540D\u79F0
+spring:
+  application:
+    name: netty-server
+
+logging:
+  level:
+   root: info

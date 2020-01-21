@@ -1,0 +1,213 @@
+2019-12-24 11:20:08.243| main | INFO |  -  | Starting ComNettyClientApplication on kingdeMacBook-Air.local with PID 2349 (/Users/king/workspace/com-netty-demo/com-netty-client/target/classes started by king in /Users/king/workspace/com-netty-demo) | [org.springframework.boot.StartupInfoLogger:50]
+2019-12-24 11:20:08.252| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2019-12-24 11:20:10.077| main | INFO |  -  | Tomcat initialized with port(s): 8124 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2019-12-24 11:20:10.098| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8124"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:20:10.112| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:20:10.113| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:20:10.295| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:20:10.296| main | INFO |  -  | Root WebApplicationContext: initialization completed in 1922 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2019-12-24 11:20:10.621| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2019-12-24 11:20:10.944| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8124"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:20:11.045| main | INFO |  -  | Tomcat started on port(s): 8124 (http) with context path '' | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:202]
+2019-12-24 11:20:11.062| main | INFO |  -  | Started ComNettyClientApplication in 4.562 seconds (JVM running for 5.895) | [org.springframework.boot.StartupInfoLogger:59]
+2019-12-24 11:20:11.727| main | INFO |  -  | 客户端成功.... | [com.netty.client.NettyClient:28]
+2019-12-24 11:20:11.727| nioEventLoopGroup-2-1 | INFO |  -  | 客户端Active ..... | [com.netty.client.NettyClientHandler:16]
+2019-12-24 11:20:11.889| nioEventLoopGroup-2-1 | INFO |  -  | 客户端收到消息: 你也好哦 | [com.netty.client.NettyClientHandler:21]
+2019-12-24 11:23:10.833| Thread-13 | INFO |  -  | Shutting down ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208]
+2019-12-24 11:23:15.531| main | INFO |  -  | Starting ComNettyClientApplication on kingdeMacBook-Air.local with PID 2382 (/Users/king/workspace/com-netty-demo/com-netty-client/target/classes started by king in /Users/king/workspace/com-netty-demo) | [org.springframework.boot.StartupInfoLogger:50]
+2019-12-24 11:23:15.536| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2019-12-24 11:23:17.947| main | INFO |  -  | Tomcat initialized with port(s): 8124 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2019-12-24 11:23:17.975| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8124"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:23:17.992| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:23:17.993| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:23:18.229| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:23:18.230| main | INFO |  -  | Root WebApplicationContext: initialization completed in 2535 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2019-12-24 11:23:18.709| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2019-12-24 11:23:19.065| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8124"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:23:19.146| main | INFO |  -  | Tomcat started on port(s): 8124 (http) with context path '' | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:202]
+2019-12-24 11:23:19.156| main | INFO |  -  | Started ComNettyClientApplication in 4.977 seconds (JVM running for 7.279) | [org.springframework.boot.StartupInfoLogger:59]
+2019-12-24 11:23:26.040| nioEventLoopGroup-2-1 | INFO |  -  | 客户端Active ..... | [com.netty.client.NettyClientHandler:16]
+2019-12-24 11:23:27.153| main | INFO |  -  | 客户端成功.... | [com.netty.client.NettyClient:28]
+2019-12-24 11:23:31.811| nioEventLoopGroup-2-1 | INFO |  -  | 客户端收到消息: 你也好哦 | [com.netty.client.NettyClientHandler:21]
+2019-12-24 11:24:15.543| Thread-13 | INFO |  -  | Shutting down ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208]
+2019-12-24 11:24:20.269| main | INFO |  -  | Starting ComNettyClientApplication on kingdeMacBook-Air.local with PID 2400 (/Users/king/workspace/com-netty-demo/com-netty-client/target/classes started by king in /Users/king/workspace/com-netty-demo) | [org.springframework.boot.StartupInfoLogger:50]
+2019-12-24 11:24:20.277| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2019-12-24 11:24:22.795| main | INFO |  -  | Tomcat initialized with port(s): 8124 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2019-12-24 11:24:22.823| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8124"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:24:22.842| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:24:22.844| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:24:23.177| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:24:23.177| main | INFO |  -  | Root WebApplicationContext: initialization completed in 2785 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2019-12-24 11:24:23.804| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2019-12-24 11:24:24.310| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8124"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:24:24.418| main | INFO |  -  | Tomcat started on port(s): 8124 (http) with context path '' | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:202]
+2019-12-24 11:24:24.437| main | INFO |  -  | Started ComNettyClientApplication in 5.955 seconds (JVM running for 8.03) | [org.springframework.boot.StartupInfoLogger:59]
+2019-12-24 11:24:25.045| nioEventLoopGroup-2-1 | INFO |  -  | 客户端Active ..... | [com.netty.client.NettyClientHandler:16]
+2019-12-24 11:24:25.050| main | INFO |  -  | 客户端成功.... | [com.netty.client.NettyClient:28]
+2019-12-24 11:24:25.375| nioEventLoopGroup-2-1 | INFO |  -  | 客户端收到消息: HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 800
+Date: Tue, 24 Dec 2019 03:24:25 GMT
+Connection: close
+
+<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1></body></html> | [com.netty.client.NettyClientHandler:21]
+2019-12-24 11:25:02.627| Thread-15 | INFO |  -  | Shutting down ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208]
+2019-12-24 11:25:09.854| main | INFO |  -  | Starting ComNettyClientApplication on kingdeMacBook-Air.local with PID 2416 (/Users/king/workspace/com-netty-demo/com-netty-client/target/classes started by king in /Users/king/workspace/com-netty-demo) | [org.springframework.boot.StartupInfoLogger:50]
+2019-12-24 11:25:09.860| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2019-12-24 11:25:12.107| main | INFO |  -  | Tomcat initialized with port(s): 8124 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2019-12-24 11:25:12.139| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8124"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:25:12.164| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:25:12.165| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:25:12.425| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:25:12.426| main | INFO |  -  | Root WebApplicationContext: initialization completed in 2478 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2019-12-24 11:25:12.870| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2019-12-24 11:25:13.240| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8124"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:25:13.307| main | INFO |  -  | Tomcat started on port(s): 8124 (http) with context path '' | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:202]
+2019-12-24 11:25:13.316| main | INFO |  -  | Started ComNettyClientApplication in 5.08 seconds (JVM running for 6.349) | [org.springframework.boot.StartupInfoLogger:59]
+2019-12-24 11:25:14.078| nioEventLoopGroup-2-1 | INFO |  -  | 客户端Active ..... | [com.netty.client.NettyClientHandler:16]
+2019-12-24 11:25:14.078| main | INFO |  -  | 客户端成功.... | [com.netty.client.NettyClient:28]
+2019-12-24 11:25:14.181| nioEventLoopGroup-2-1 | INFO |  -  | 客户端收到消息: 你也好哦 | [com.netty.client.NettyClientHandler:21]
+2019-12-24 11:26:41.216| Thread-13 | INFO |  -  | Shutting down ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208]
+2019-12-24 11:26:48.291| main | INFO |  -  | Starting ComNettyClientApplication on kingdeMacBook-Air.local with PID 2446 (/Users/king/workspace/com-netty-demo/com-netty-client/target/classes started by king in /Users/king/workspace/com-netty-demo) | [org.springframework.boot.StartupInfoLogger:50]
+2019-12-24 11:26:48.303| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2019-12-24 11:26:50.495| main | INFO |  -  | Tomcat initialized with port(s): 8080 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2019-12-24 11:26:50.536| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:50.558| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:50.559| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:50.811| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:50.812| main | INFO |  -  | Root WebApplicationContext: initialization completed in 2355 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2019-12-24 11:26:51.361| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2019-12-24 11:26:51.749| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:51.795| main | ERROR |  -  | Failed to start component [Connector[HTTP/1.1-8080]] | [org.apache.juli.logging.DirectJDKLog:175]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.netty.client.ComNettyClientApplication.main(ComNettyClientApplication.java:10)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-12-24 11:26:51.807| main | INFO |  -  | Pausing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:51.808| main | INFO |  -  | Stopping service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:51.820| main | INFO |  -  | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:51.820| main | INFO |  -  | Stopping ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:51.821| main | INFO |  -  | Destroying ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:26:51.825| main | INFO |  -  | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. | [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136]
+2019-12-24 11:26:51.836| main | ERROR |  -  | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+ | [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40]
+2019-12-24 11:26:51.841| main | INFO |  -  | Shutting down ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208]
+2019-12-24 11:27:36.867| main | INFO |  -  | Starting ComNettyClientApplication on kingdeMacBook-Air.local with PID 2460 (/Users/king/workspace/com-netty-demo/com-netty-client/target/classes started by king in /Users/king/workspace/com-netty-demo) | [org.springframework.boot.StartupInfoLogger:50]
+2019-12-24 11:27:36.876| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2019-12-24 11:27:38.391| main | INFO |  -  | Tomcat initialized with port(s): 8080 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2019-12-24 11:27:38.409| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:38.421| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:38.422| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:38.558| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:38.559| main | INFO |  -  | Root WebApplicationContext: initialization completed in 1598 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2019-12-24 11:27:38.870| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2019-12-24 11:27:39.178| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:39.211| main | ERROR |  -  | Failed to start component [Connector[HTTP/1.1-8080]] | [org.apache.juli.logging.DirectJDKLog:175]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.netty.client.ComNettyClientApplication.main(ComNettyClientApplication.java:10)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-12-24 11:27:39.218| main | INFO |  -  | Pausing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:39.219| main | INFO |  -  | Stopping service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:39.229| main | INFO |  -  | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:39.229| main | INFO |  -  | Stopping ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:39.230| main | INFO |  -  | Destroying ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:27:39.234| main | INFO |  -  | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. | [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136]
+2019-12-24 11:27:39.240| main | ERROR |  -  | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+ | [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40]
+2019-12-24 11:27:39.245| main | INFO |  -  | Shutting down ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208]
+2019-12-24 11:29:28.808| main | INFO |  -  | Starting ComNettyClientApplication on kingdeMacBook-Air.local with PID 2490 (/Users/king/workspace/com-netty-demo/com-netty-client/target/classes started by king in /Users/king/workspace/com-netty-demo) | [org.springframework.boot.StartupInfoLogger:50]
+2019-12-24 11:29:28.819| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2019-12-24 11:29:30.837| main | INFO |  -  | Tomcat initialized with port(s): 8082 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2019-12-24 11:29:30.861| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8082"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:29:30.874| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:29:30.875| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:29:31.110| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:29:31.110| main | INFO |  -  | Root WebApplicationContext: initialization completed in 2151 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2019-12-24 11:29:31.498| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2019-12-24 11:29:31.866| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8082"] | [org.apache.juli.logging.DirectJDKLog:173]
+2019-12-24 11:29:31.931| main | INFO |  -  | Tomcat started on port(s): 8082 (http) with context path '' | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:202]
+2019-12-24 11:29:31.940| main | INFO |  -  | Started ComNettyClientApplication in 4.934 seconds (JVM running for 6.487) | [org.springframework.boot.StartupInfoLogger:59]
+2019-12-24 11:29:36.038| main | INFO |  -  | 客户端成功.... | [com.netty.client.NettyClient:28]
+2019-12-24 11:29:36.038| nioEventLoopGroup-2-1 | INFO |  -  | 客户端Active ..... | [com.netty.client.NettyClientHandler:16]
+2019-12-24 11:29:36.165| nioEventLoopGroup-2-1 | INFO |  -  | 客户端收到消息: 你也好哦 | [com.netty.client.NettyClientHandler:21]
+2019-12-24 13:56:57.750| Thread-13 | INFO |  -  | Shutting down ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208]
